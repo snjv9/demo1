@@ -3,6 +3,9 @@ package com.example.demo1.domain;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
+//This is pojo(Plain old java Object) class
+
+
 @Entity(name = "movie")
 public class Movie {
     @Id

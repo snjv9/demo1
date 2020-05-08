@@ -9,9 +9,11 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
 
+
+
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
-@RequestMapping("api/v1")
+@CrossOrigin(origins = "http://localhost:4200")    //Cross origin Resource sharing (CORS) for allowing only a
+@RequestMapping("api/v1")                          //particular domain to do (CRUD) operations
 public class MovieController {
     MovieService movieService;
 
